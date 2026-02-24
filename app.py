@@ -3,6 +3,6 @@ app = Flask(name)
 
 @app.route("/")
 def index():
-    return "<h1>Shruti Shinde</h1>"
-if _name_ == 'main':
-    app.run(host='0.0.0.0', port=5000,deburg=True)
+    return "<h1>Raj Chheda</h1>"
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)
